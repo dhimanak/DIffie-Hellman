@@ -1,15 +1,13 @@
 # /usr/bin/python
-import math
+"""
+AUTHOR:     Alexander Adranly
 
+DESCRIPTION:
+
+Non-networking practice script for attempting to simulate
+the diffie-hellman process
 """
-Prompt user for a Prime Number and store the input in p.
-Prompt user for a primitive root of p and store the input in r.
-Prompt user for Alice’s private key and store the input in a.
-Prompt user for Bob’s private key and store in b.
-Calculate Alice’s public key (x = ra mod p), Calculate Bob’s public key (y = rb mod p).
-Assume public values x and y are exchanged.
-Calculate Alice’s shared private key ( ka = ya mod p). Calculate Bob’s shared key (kb = xb mod p). Is ka = kb?
-"""
+import math
 
 
 def is_prime(num):
